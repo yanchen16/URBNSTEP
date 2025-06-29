@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #212529;
+}
+
+section {
+    max-width: 856px;
+    margin: 0 auto;
+    padding-bottom: 48px;
+    border-bottom: 1px solid #DEE2E6;
+    margin-bottom: 48px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a {
+    color: #57a203;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    color: #fff;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    padding-bottom: 24px;
+}
+
+.highlight {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    color: #57a203;
+}

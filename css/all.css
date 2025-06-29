@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  color: #212529;
+}
+
+section {
+  max-width: 856px;
+  margin: 0 auto;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #DEE2E6;
+  margin-bottom: 48px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  color: #57a203;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  padding-bottom: 24px;
+}
+
+.highlight {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #57a203;
+}
+
+.container {
+  max-width: 1076px;
+  margin: 0 auto;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+header {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 151px;
+  padding-bottom: 151px;
+}
+header h1 {
+  text-align: center;
+  padding-bottom: 16px;
+}
+header p {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+  color: #fff;
+  text-align: center;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+footer .copyright {
+  color: #6C757D;
+  text-align: center;
+  font-size: 14px;
+}
+
+.block-quote {
+  background-color: #f5fee7;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 32px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.block-quote .highlight {
+  padding-bottom: 12px;
+}
+.block-quote p {
+  margin-bottom: 4px;
+}
+.block-quote p:last-of-type {
+  margin-bottom: 0;
+}
+
+/* 品牌簡介 */
+.brand-intro img {
+  padding-bottom: 24px;
+}
+.brand-intro .intro-content .highlight {
+  padding-bottom: 16px;
+}
+.brand-intro .intro-content p {
+  padding-bottom: 16px;
+}
+.brand-intro .intro-content p:last-of-type {
+  padding-bottom: 0;
+}
+
+/* 品牌歷程 */
+.brand-history ol {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.brand-history li {
+  padding-bottom: 12px;
+}
+.brand-history li:last-of-type {
+  padding-bottom: 0;
+}
+.brand-history li .history-year {
+  border-left: 1px solid #212529;
+  padding-left: 8px;
+  margin-left: 8px;
+}
+
+/* 品牌理念 */
+.brand-concept li {
+  margin-bottom: 12px;
+  border-left: 3px solid #DEE2E6;
+  padding-left: 12px;
+}
+.brand-concept li:last-of-type {
+  margin-bottom: 0;
+}
+
+/* 品牌小故事 */
+.brand-story li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.brand-story li .bi-arrow-up-right {
+  margin-right: 8px;
+}

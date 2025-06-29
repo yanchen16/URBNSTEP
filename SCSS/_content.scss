@@ -1,0 +1,78 @@
+.block-quote {
+    background-color: #f5fee7;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 32px;
+    text-align: center;
+    margin-bottom: 48px;
+        .highlight {
+            padding-bottom: 12px;
+        }
+        p {
+           margin-bottom: 4px; 
+           &:last-of-type {
+            margin-bottom: 0;
+           }
+        }
+}
+
+/* 品牌簡介 */
+.brand-intro {
+    img {
+        padding-bottom: 24px;
+    }
+    .intro-content {
+        .highlight  {
+            padding-bottom: 16px;
+        }
+        p {
+            padding-bottom: 16px;
+            &:last-of-type {
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+/* 品牌歷程 */
+.brand-history {
+    ol {
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+    li {
+        padding-bottom: 12px;
+        &:last-of-type {
+            padding-bottom: 0;
+        }
+        .history-year {
+            border-left: 1px solid #212529;
+            padding-left: 8px;
+            margin-left: 8px;
+        }
+    }
+}
+
+/* 品牌理念 */
+.brand-concept {
+    li {
+        margin-bottom: 12px;
+        border-left: 3px solid #DEE2E6;
+        padding-left: 12px;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}
+
+/* 品牌小故事 */
+.brand-story {
+    li {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        .bi-arrow-up-right {
+            margin-right: 8px;
+        }
+    }
+}
